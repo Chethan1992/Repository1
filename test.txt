@@ -1,8 +1,8 @@
 class MyException extends Exception
 {
 String info;
-public MyException(String in)
-{this.info=in;
+public MyException(String in){
+this.info=in;
 System.out.println(info);
 }
 }
@@ -15,5 +15,6 @@ try{
 throw new MyException("Hey its my own exception");
 }catch(MyException e){}
 System.out.println("bye");
+System.out.println("ba bye");
 }
 }
