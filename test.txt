@@ -15,6 +15,6 @@ try{
 throw new MyException("Hey its my own exception");
 }catch(MyException e){}
 System.out.println("bye");
-System.out.println(" good bye");
+System.out.println(" good ba bye");
 }
 }
