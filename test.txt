@@ -11,10 +11,11 @@ class demo5userex1
 {
 public static void main(String arg[]) throws MyException
 {
-try{
+try
+{
 throw new MyException("Hey its my own exception");
 }catch(MyException e){}
 System.out.println("bye");
-System.out.println(" good ba bye");
+System.out.println(" GOOD BYE");
 }
 }
